@@ -86,11 +86,11 @@ final public class ContactImpl {
 		String jobTitle = contact.getJobTitle();
 		String company = contact.getCompany();
 		String department = contact.getDepartment();
-		List<? extends Email> emails = contact.getEmails();
-		List<? extends PhoneNumber> phoneNumbers = contact.getPhoneNumbers();
-		List<? extends Im> ims = contact.getIms();
-		List<? extends String> webPages = contact.getWebPages();
-		List<? extends Address> addresses = contact.getAddresses();
+		List<Email> emails = contact.getEmails();
+		List<PhoneNumber> phoneNumbers = contact.getPhoneNumbers();
+		List<Im> ims = contact.getIms();
+		List<String> webPages = contact.getWebPages();
+		List<Address> addresses = contact.getAddresses();
 		// Hide header for address-only view
 		if(
 			title != null
