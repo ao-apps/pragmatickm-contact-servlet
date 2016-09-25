@@ -74,8 +74,8 @@ public class Contact extends Element<com.pragmatickm.contact.model.Contact> {
 		return this;
 	}
 
-	private String style;
-	public Contact style(String style) {
+	private Object style;
+	public Contact style(Object style) {
 		this.style = style;
 		return this;
 	}

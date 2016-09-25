@@ -23,6 +23,7 @@
 package com.pragmatickm.contact.servlet.impl;
 
 import com.aoindustries.aoserv.client.validator.Email;
+import com.aoindustries.encoding.Coercion;
 import com.aoindustries.encoding.MediaWriter;
 import static com.aoindustries.encoding.TextInXhtmlAttributeEncoder.encodeTextInXhtmlAttribute;
 import static com.aoindustries.encoding.TextInXhtmlAttributeEncoder.textInXhtmlAttributeEncoder;
@@ -59,7 +60,7 @@ final public class ContactImpl {
 		PageIndex pageIndex,
 		Writer out,
 		ElementContext context,
-		String style,
+		Object style,
 		Contact contact
 	) throws IOException {
 		out.write("<table id=\"");
@@ -70,9 +71,9 @@ final public class ContactImpl {
 			new MediaWriter(textInXhtmlAttributeEncoder, out)
 		);
 		out.write("\" class=\"thinTable contactTable\"");
-		if(style!=null) {
+		if(style != null) {
 			out.write(" style=\"");
-			encodeTextInXhtmlAttribute(style, out);
+			Coercion.write(style, textInXhtmlAttributeEncoder, out);
 			out.write('"');
 		}
 		out.write(">\n");
