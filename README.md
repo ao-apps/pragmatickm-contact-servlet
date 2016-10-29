@@ -3,6 +3,7 @@ Contacts nested within [SemanticCMS](https://semanticcms.com/) pages and element
 
 ## Project Links
 * [Project Home](https://pragmatickm.com/contact/servlet/)
+* [Changelog](https://pragmatickm.com/contact/servlet/changelog)
 * [API Docs](https://pragmatickm.com/contact/servlet/apidocs/)
 * [Maven Repository](scpexe://private.cvs.aoindustries.com/var/maven2/pragmatickm)
 * [Git](ssh://private.cvs.aoindustries.com/var/git/pragmatickm-contact-servlet)
