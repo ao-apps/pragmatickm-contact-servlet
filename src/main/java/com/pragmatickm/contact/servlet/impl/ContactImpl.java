@@ -1,6 +1,6 @@
 /*
  * pragmatickm-contact-servlet - Contacts nested within SemanticCMS pages and elements in a Servlet environment.
- * Copyright (C) 2013, 2014, 2015, 2016  AO Industries, Inc.
+ * Copyright (C) 2013, 2014, 2015, 2016, 2017  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -22,7 +22,6 @@
  */
 package com.pragmatickm.contact.servlet.impl;
 
-import com.aoindustries.aoserv.client.validator.Email;
 import com.aoindustries.encoding.Coercion;
 import com.aoindustries.encoding.MediaWriter;
 import static com.aoindustries.encoding.TextInXhtmlAttributeEncoder.encodeTextInXhtmlAttribute;
@@ -30,6 +29,7 @@ import static com.aoindustries.encoding.TextInXhtmlAttributeEncoder.textInXhtmlA
 import static com.aoindustries.encoding.TextInXhtmlEncoder.encodeTextInXhtml;
 import static com.aoindustries.encoding.TextInXhtmlEncoder.textInXhtmlEncoder;
 import com.aoindustries.io.buffer.BufferResult;
+import com.aoindustries.net.Email;
 import com.pragmatickm.contact.model.Address;
 import com.pragmatickm.contact.model.AddressType;
 import com.pragmatickm.contact.model.Contact;
