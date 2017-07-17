@@ -45,13 +45,41 @@ public class Contact extends Element<com.pragmatickm.contact.model.Contact> {
 	public Contact(
 		ServletContext servletContext,
 		HttpServletRequest request,
-		HttpServletResponse response
+		HttpServletResponse response,
+		com.pragmatickm.contact.model.Contact element
 	) {
 		super(
 			servletContext,
 			request,
 			response,
+			element
+		);
+	}
+
+	public Contact(
+		ServletContext servletContext,
+		HttpServletRequest request,
+		HttpServletResponse response
+	) {
+		this(
+			servletContext,
+			request,
+			response,
 			new com.pragmatickm.contact.model.Contact()
+		);
+	}
+
+	/**
+	 * Creates a new contact in the current page context.
+	 *
+	 * @see  PageContext
+	 */
+	public Contact(com.pragmatickm.contact.model.Contact element) {
+		this(
+			PageContext.getServletContext(),
+			PageContext.getRequest(),
+			PageContext.getResponse(),
+			element
 		);
 	}
 
