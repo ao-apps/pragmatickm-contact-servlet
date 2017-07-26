@@ -37,7 +37,7 @@ along with pragmatickm-contact-servlet.  If not, see <http://www.gnu.org/license
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2017-07-25T18:14:05-0500"
-		dateModified="2017-07-26T13:27:42-0500"
+		dateModified="2017-07-26T14:11:50-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.pragmatickm:pragmatickm-contact-servlet:pom.version}" />
@@ -66,6 +66,7 @@ along with pragmatickm-contact-servlet.  If not, see <http://www.gnu.org/license
 			datePublished="2017-07-20T18:54:05-0500"
 			groupId="@{documented.groupId}"
 			artifactId="@{documented.artifactId}"
+			repository="https://aorepo.org/maven2"
 			scmUrl="@{documented.scm.url}"
 		>
 			<ul>
@@ -80,12 +81,13 @@ along with pragmatickm-contact-servlet.  If not, see <http://www.gnu.org/license
 			datePublished="2016-11-16T21:51:09-0600"
 			groupId="@{documented.groupId}"
 			artifactId="@{documented.artifactId}"
+			repository="https://aorepo.org/maven2"
 			scmUrl="@{documented.scm.url}"
 		>
 			<ul>
 				<li><code>/WEB-INF/books.properties</code> converted to XML at <code>/WEB-INF/books.xml</code></li>
 				<li>New <ao:a href="https://aoindustries.com/ao-oss-parent/">AO OSS Parent</ao:a> POM to simplify <code>pom.xml</code> files.</li>
-				<li>Project documentation moved to per-project book in <core:link book="/" page="/index.jspx" /> format.</li>
+				<li>Project documentation moved to per-project book in <ao:a href="https://semanticcms.com/">SemanticCMS</ao:a> format.</li>
 				<li>Added changelog as top-level project link.</li>
 			</ul>
 		</changelog:release>
@@ -96,6 +98,7 @@ along with pragmatickm-contact-servlet.  If not, see <http://www.gnu.org/license
 			datePublished="2016-10-20T20:13:06-0500"
 			groupId="@{documented.groupId}"
 			artifactId="@{documented.artifactId}"
+			repository="https://aorepo.org/maven2"
 			scmUrl="@{documented.scm.url}"
 		>
 			<ul>
@@ -110,6 +113,7 @@ along with pragmatickm-contact-servlet.  If not, see <http://www.gnu.org/license
 			datePublished="2016-10-04T23:44:20-0500"
 			groupId="@{documented.groupId}"
 			artifactId="@{documented.artifactId}"
+			repository="https://aorepo.org/maven2"
 			scmUrl="@{documented.scm.url}"
 		>
 			<ul>
@@ -124,6 +128,7 @@ along with pragmatickm-contact-servlet.  If not, see <http://www.gnu.org/license
 			datePublished="2016-09-11T17:40:52-0500"
 			groupId="@{documented.groupId}"
 			artifactId="@{documented.artifactId}"
+			repository="https://aorepo.org/maven2"
 			scmUrl="@{documented.scm.url}"
 		>
 			<ul>
@@ -138,6 +143,7 @@ along with pragmatickm-contact-servlet.  If not, see <http://www.gnu.org/license
 			datePublished="2016-09-03T11:27:26-0500"
 			groupId="@{documented.groupId}"
 			artifactId="@{documented.artifactId}"
+			repository="https://aorepo.org/maven2"
 			scmUrl="@{documented.scm.url}"
 		>
 			<ul>
@@ -152,6 +158,7 @@ along with pragmatickm-contact-servlet.  If not, see <http://www.gnu.org/license
 			datePublished="2016-08-30T17:25:56-0500"
 			groupId="@{documented.groupId}"
 			artifactId="@{documented.artifactId}"
+			repository="https://aorepo.org/maven2"
 			scmUrl="@{documented.scm.url}"
 		>
 			<ul>
