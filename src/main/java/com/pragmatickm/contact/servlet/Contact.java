@@ -28,7 +28,7 @@ import com.pragmatickm.contact.model.Im;
 import com.pragmatickm.contact.model.PhoneNumber;
 import com.pragmatickm.contact.servlet.impl.ContactImpl;
 import com.semanticcms.core.model.ElementContext;
-import com.semanticcms.core.servlet.CaptureLevel;
+import com.semanticcms.core.pages.CaptureLevel;
 import com.semanticcms.core.servlet.Element;
 import com.semanticcms.core.servlet.PageContext;
 import com.semanticcms.core.servlet.PageIndex;

@@ -37,7 +37,7 @@ along with pragmatickm-contact-servlet.  If not, see <http://www.gnu.org/license
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2017-07-25T18:14:05-0500"
-		dateModified="2017-07-29T09:39:10-0500"
+		dateModified="2017-08-21T22:41:27-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.pragmatickm:pragmatickm-contact-servlet:pom.version}" />
@@ -52,7 +52,11 @@ along with pragmatickm-contact-servlet.  If not, see <http://www.gnu.org/license
 				groupId="@{documented.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{documented.scm.url}"
-			/>
+			>
+				<ul>
+					<li>Updated for <ao:a href="https://semanticcms.com/">SemanticCMS</ao:a> 2.</li>
+				</ul>
+			</changelog:release>
 		</c:if>
 
 		<changelog:release
