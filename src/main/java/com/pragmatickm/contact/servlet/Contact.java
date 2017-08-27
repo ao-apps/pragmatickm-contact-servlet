@@ -26,12 +26,12 @@ import com.aoindustries.net.Email;
 import com.pragmatickm.contact.model.Address;
 import com.pragmatickm.contact.model.Im;
 import com.pragmatickm.contact.model.PhoneNumber;
-import com.pragmatickm.contact.servlet.impl.ContactImpl;
+import com.pragmatickm.contact.renderer.html.ContactHtmlRenderer;
 import com.semanticcms.core.model.ElementContext;
 import com.semanticcms.core.pages.CaptureLevel;
 import com.semanticcms.core.pages.local.PageContext;
+import com.semanticcms.core.renderer.html.PageIndex;
 import com.semanticcms.core.servlet.Element;
-import com.semanticcms.core.servlet.PageIndex;
 import java.io.IOException;
 import java.io.Writer;
 import javax.servlet.ServletContext;
@@ -192,6 +192,6 @@ public class Contact extends Element<com.pragmatickm.contact.model.Contact> {
 
 	@Override
 	public void writeTo(Writer out, ElementContext context) throws IOException, ServletException, SkipPageException {
-		ContactImpl.writeContactTable(pageIndex, out, context, style, element);
+		ContactHtmlRenderer.writeContactTable(pageIndex, out, context, style, element);
 	}
 }
