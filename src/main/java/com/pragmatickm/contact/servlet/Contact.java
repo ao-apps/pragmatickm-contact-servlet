@@ -1,6 +1,6 @@
 /*
  * pragmatickm-contact-servlet - Contacts nested within SemanticCMS pages and elements in a Servlet environment.
- * Copyright (C) 2013, 2014, 2015, 2016, 2017  AO Industries, Inc.
+ * Copyright (C) 2013, 2014, 2015, 2016, 2017, 2020  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -22,6 +22,7 @@
  */
 package com.pragmatickm.contact.servlet;
 
+import com.aoindustries.html.servlet.HtmlEE;
 import com.aoindustries.net.Email;
 import com.pragmatickm.contact.model.Address;
 import com.pragmatickm.contact.model.Im;
@@ -192,6 +193,12 @@ public class Contact extends Element<com.pragmatickm.contact.model.Contact> {
 
 	@Override
 	public void writeTo(Writer out, ElementContext context) throws IOException, ServletException, SkipPageException {
-		ContactImpl.writeContactTable(pageIndex, out, context, style, element);
+		ContactImpl.writeContactTable(
+			pageIndex,
+			HtmlEE.get(servletContext, request, out),
+			context,
+			style,
+			element
+		);
 	}
 }
