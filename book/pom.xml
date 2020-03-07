@@ -35,8 +35,6 @@ along with pragmatickm-contact-servlet.  If not, see <http://www.gnu.org/license
 	<properties>
 		<!-- These values are copied from the project being documented -->
 		<documented.artifactId>pragmatickm-contact-servlet</documented.artifactId>
-		<documented.javaVersion>1.8</documented.javaVersion>
-		<documented.javac.link.javaApi>${javac.link.javaApi.jdk8}</documented.javac.link.javaApi>
 		<documented.name>PragmaticKM Contact Servlet²</documented.name>
 		<documented.shortTitle>Servlet</documented.shortTitle>
 		<documented.description>Contacts nested within SemanticCMS pages and elements in a Servlet environment.</documented.description>
