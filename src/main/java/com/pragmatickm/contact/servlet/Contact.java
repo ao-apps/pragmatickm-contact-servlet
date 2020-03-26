@@ -195,7 +195,7 @@ public class Contact extends Element<com.pragmatickm.contact.model.Contact> {
 	public void writeTo(Writer out, ElementContext context) throws IOException, ServletException, SkipPageException {
 		ContactHtmlRenderer.writeContactTable(
 			pageIndex,
-			HtmlEE.get(servletContext, request, out),
+			HtmlEE.get(servletContext, request, response, out),
 			context,
 			style,
 			element
