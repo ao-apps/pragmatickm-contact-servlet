@@ -54,6 +54,11 @@ along with pragmatickm-contact-servlet.  If not, see <http://www.gnu.org/license
 		<tag>HEAD</tag>
 	</scm>
 
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/aoindustries/pragmatickm-contact-servlet/issues</url>
+	</issueManagement>
+
 	<dependencyManagement>
 		<dependencies>
 			<!-- Java EE -->
