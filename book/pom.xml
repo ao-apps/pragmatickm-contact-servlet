@@ -29,7 +29,7 @@ along with pragmatickm-contact-servlet.  If not, see <http://www.gnu.org/license
 		<relativePath>../../../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-servlet-book</artifactId><version>1.5.0</version>
+	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-servlet-book</artifactId><version>1.5.0-POST-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<properties>
@@ -51,7 +51,7 @@ along with pragmatickm-contact-servlet.  If not, see <http://www.gnu.org/license
 		<connection>scm:git:git://github.com/aoindustries/pragmatickm-contact-servlet.git</connection>
 		<developerConnection>scm:git:git@github.com:aoindustries/pragmatickm-contact-servlet.git</developerConnection>
 		<url>https://github.com/aoindustries/pragmatickm-contact-servlet</url>
-		<tag>pragmatickm-contact-servlet-book-1.5.0</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
