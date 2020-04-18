@@ -70,6 +70,7 @@ along with pragmatickm-contact-servlet.  If not, see <http://www.gnu.org/license
 								<!-- Java EE -->
 								<link>${javadoc.link.javaee}</link>
 								<!-- Direct -->
+								<link>https://aoindustries.com/ao-fluent-html/servlet/apidocs/</link>
 								<link>https://aoindustries.com/ao-net-types/apidocs/</link>
 								<link>https://pragmatickm.com/contact/model/apidocs/</link>
 								<link>https://pragmatickm.com/contact/renderer/html/apidocs/</link>
@@ -95,6 +96,9 @@ along with pragmatickm-contact-servlet.  If not, see <http://www.gnu.org/license
 				<scope>import</scope>
 			</dependency>
 			<!-- Direct -->
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-fluent-html-servlet</artifactId><version>0.1.0${POST-SNAPSHOT}</version>
+			</dependency>
 			<dependency>
 				<groupId>com.aoindustries</groupId><artifactId>ao-net-types</artifactId><version>1.2.1${POST-SNAPSHOT}</version>
 			</dependency>
@@ -133,6 +137,9 @@ along with pragmatickm-contact-servlet.  If not, see <http://www.gnu.org/license
 			<scope>provided</scope>
 		</dependency>
 		<!-- Direct -->
+		<dependency>
+			<groupId>com.aoindustries</groupId><artifactId>ao-fluent-html-servlet</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>com.aoindustries</groupId><artifactId>ao-net-types</artifactId>
 		</dependency>
