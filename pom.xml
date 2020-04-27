@@ -73,11 +73,11 @@ along with pragmatickm-contact-servlet.  If not, see <http://www.gnu.org/license
 								<link>https://aoindustries.com/ao-fluent-html/servlet/apidocs/</link>
 								<link>https://aoindustries.com/ao-net-types/apidocs/</link>
 								<link>https://pragmatickm.com/contact/model/apidocs/</link>
-								<link>https://pragmatickm.com/contact/renderer/html/apidocs/</link>
+								<!-- TODO: Once published: <link>https://pragmatickm.com/contact/renderer/html/apidocs/</link> -->
 								<link>https://semanticcms.com/core/model/apidocs/</link>
-								<link>https://semanticcms.com/core/pages/apidocs/</link>
-								<link>https://semanticcms.com/core/pages/local/apidocs/</link>
-								<link>https://semanticcms.com/core/renderer/html/apidocs/</link>
+								<!-- TODO: Once published: <link>https://semanticcms.com/core/pages/apidocs/</link> -->
+								<!-- TODO: Once published: <link>https://semanticcms.com/core/pages/local/apidocs/</link> -->
+								<!-- TODO: Once published: <link>https://semanticcms.com/core/renderer/html/apidocs/</link> -->
 								<link>https://semanticcms.com/core/servlet/apidocs/</link>
 							</links>
 						</configuration>
