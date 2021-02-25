@@ -193,7 +193,8 @@ public class Contact extends Element<com.pragmatickm.contact.model.Contact> {
 
 	@Override
 	public void writeTo(Writer out, ElementContext context) throws IOException, ServletException, SkipPageException {
-		ContactHtmlRenderer.writeContactTable(pageIndex,
+		ContactHtmlRenderer.writeContactTable(
+			pageIndex,
 			DocumentEE.get(servletContext, request, response, out),
 			context,
 			style,
