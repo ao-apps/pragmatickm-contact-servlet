@@ -22,7 +22,6 @@
  */
 package com.pragmatickm.contact.servlet.impl;
 
-import com.aoindustries.html.any.AnyDocument;
 import com.aoindustries.html.any.AnyPalpableContent;
 import com.aoindustries.html.any.AnyUnion_TBODY_THEAD_TFOOT;
 import com.aoindustries.io.buffer.BufferResult;
@@ -51,12 +50,9 @@ final public class ContactImpl {
 		}
 	}
 
-	public static <
-		D extends AnyDocument<D>,
-		__ extends AnyPalpableContent<D, __>
-	> void writeContactTable(
+	public static void writeContactTable(
 		PageIndex pageIndex,
-		__ content,
+		AnyPalpableContent<?, ?> content,
 		ElementContext context,
 		Object style,
 		Contact contact
