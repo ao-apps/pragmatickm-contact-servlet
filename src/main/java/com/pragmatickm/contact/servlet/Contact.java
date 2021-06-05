@@ -22,8 +22,8 @@
  */
 package com.pragmatickm.contact.servlet;
 
-import com.aoindustries.html.servlet.DocumentEE;
-import com.aoindustries.net.Email;
+import com.aoapps.html.servlet.DocumentEE;
+import com.aoapps.net.Email;
 import com.pragmatickm.contact.model.Address;
 import com.pragmatickm.contact.model.Im;
 import com.pragmatickm.contact.model.PhoneNumber;
