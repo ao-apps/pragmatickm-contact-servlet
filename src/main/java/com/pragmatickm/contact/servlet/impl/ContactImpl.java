@@ -39,7 +39,7 @@ import com.semanticcms.core.servlet.PageIndex;
 import java.io.IOException;
 import java.util.List;
 
-final public class ContactImpl {
+public final class ContactImpl {
 
 	private static void writeRow(String header, String value, AnyUnion_TBODY_THEAD_TFOOT<?, ?> content) throws IOException {
 		if(value != null) {
