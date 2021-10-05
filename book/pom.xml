@@ -71,20 +71,20 @@ along with pragmatickm-contact-servlet.  If not, see <http://www.gnu.org/license
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/aoindustries/pragmatickm-contact-servlet.git</connection>
-		<developerConnection>scm:git:git@github.com:aoindustries/pragmatickm-contact-servlet.git</developerConnection>
-		<url>https://github.com/aoindustries/pragmatickm-contact-servlet</url>
+		<connection>scm:git:git://github.com/ao-apps/pragmatickm-contact-servlet.git</connection>
+		<developerConnection>scm:git:git@github.com:ao-apps/pragmatickm-contact-servlet.git</developerConnection>
+		<url>https://github.com/ao-apps/pragmatickm-contact-servlet</url>
 		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/aoindustries/pragmatickm-contact-servlet/issues</url>
+		<url>https://github.com/ao-apps/pragmatickm-contact-servlet/issues</url>
 	</issueManagement>
 
 	<ciManagement>
 		<system>GitHub Actions</system>
-		<url>https://github.com/aoindustries/pragmatickm-contact-servlet/actions</url>
+		<url>https://github.com/ao-apps/pragmatickm-contact-servlet/actions</url>
 	</ciManagement>
 
 	<repositories>
