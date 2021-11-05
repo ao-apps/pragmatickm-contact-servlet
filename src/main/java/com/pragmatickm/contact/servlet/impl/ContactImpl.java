@@ -39,7 +39,10 @@ import com.semanticcms.core.servlet.PageIndex;
 import java.io.IOException;
 import java.util.List;
 
-public final class ContactImpl {
+public abstract class ContactImpl {
+
+	/** Make no instances. */
+	private ContactImpl() {throw new AssertionError();}
 
 	private static void writeRow(String header, String value, AnyUnion_TBODY_THEAD_TFOOT<?, ?> content) throws IOException {
 		if(value != null) {
@@ -198,11 +201,5 @@ public final class ContactImpl {
 				}
 			});
 		});
-	}
-
-	/**
-	 * Make no instances.
-	 */
-	private ContactImpl() {
 	}
 }
