@@ -45,29 +45,29 @@ import javax.servlet.jsp.SkipPageException;
 public class Contact extends Element<com.pragmatickm.contact.model.Contact> {
 
   public Contact(
-    ServletContext servletContext,
-    HttpServletRequest request,
-    HttpServletResponse response,
-    com.pragmatickm.contact.model.Contact element
+      ServletContext servletContext,
+      HttpServletRequest request,
+      HttpServletResponse response,
+      com.pragmatickm.contact.model.Contact element
   ) {
     super(
-      servletContext,
-      request,
-      response,
-      element
+        servletContext,
+        request,
+        response,
+        element
     );
   }
 
   public Contact(
-    ServletContext servletContext,
-    HttpServletRequest request,
-    HttpServletResponse response
+      ServletContext servletContext,
+      HttpServletRequest request,
+      HttpServletResponse response
   ) {
     this(
-      servletContext,
-      request,
-      response,
-      new com.pragmatickm.contact.model.Contact()
+        servletContext,
+        request,
+        response,
+        new com.pragmatickm.contact.model.Contact()
     );
   }
 
@@ -78,10 +78,10 @@ public class Contact extends Element<com.pragmatickm.contact.model.Contact> {
    */
   public Contact(com.pragmatickm.contact.model.Contact element) {
     this(
-      PageContext.getServletContext(),
-      PageContext.getRequest(),
-      PageContext.getResponse(),
-      element
+        PageContext.getServletContext(),
+        PageContext.getRequest(),
+        PageContext.getResponse(),
+        element
     );
   }
 
@@ -92,9 +92,9 @@ public class Contact extends Element<com.pragmatickm.contact.model.Contact> {
    */
   public Contact() {
     this(
-      PageContext.getServletContext(),
-      PageContext.getRequest(),
-      PageContext.getResponse()
+        PageContext.getServletContext(),
+        PageContext.getRequest(),
+        PageContext.getResponse()
     );
   }
 
@@ -105,6 +105,7 @@ public class Contact extends Element<com.pragmatickm.contact.model.Contact> {
   }
 
   private Object style;
+
   public Contact style(Object style) {
     this.style = style;
     return this;
@@ -186,6 +187,7 @@ public class Contact extends Element<com.pragmatickm.contact.model.Contact> {
   }
 
   private PageIndex pageIndex;
+
   @Override
   protected void doBody(CaptureLevel captureLevel, Body<? super com.pragmatickm.contact.model.Contact> body) throws ServletException, IOException, SkipPageException {
     pageIndex = PageIndex.getCurrentPageIndex(request);
@@ -195,11 +197,11 @@ public class Contact extends Element<com.pragmatickm.contact.model.Contact> {
   @Override
   public void writeTo(Writer out, ElementContext context) throws IOException, ServletException, SkipPageException {
     ContactHtmlRenderer.writeContactTable(
-      pageIndex,
-      new DocumentEE(servletContext, request, response, out),
-      context,
-      style,
-      element
+        pageIndex,
+        new DocumentEE(servletContext, request, response, out),
+        context,
+        style,
+        element
     );
   }
 }
