@@ -41,6 +41,9 @@ import java.io.IOException;
 import java.io.Writer;
 import java.util.List;
 
+/**
+ * Renders contact table HTML.
+ */
 public final class ContactImpl {
 
   /** Make no instances. */
@@ -51,12 +54,15 @@ public final class ContactImpl {
   private static void writeRow(String header, String value, AnyUnion_TBODY_THEAD_TFOOT<?, ?> content) throws IOException {
     if (value != null) {
       content.tr__any(tr -> tr
-              .th__(header)
-              .td().colspan(2).__(value)
+          .th__(header)
+          .td().colspan(2).__(value)
       );
     }
   }
 
+  /**
+   * Renders contact table HTML.
+   */
   public static void writeContactTable(
       PageIndex pageIndex,
       AnyPalpableContent<?, ?> content,
@@ -108,11 +114,11 @@ public final class ContactImpl {
                   || addresses.isEmpty() // When no addresses, always display with a full contact header
           ) {
             table.thead__any(thead -> thead
-                    .tr__any(tr -> tr
-                            .th().colspan(3).__(th -> th
-                                .div__(contact)
-                        )
+                .tr__any(tr -> tr
+                    .th().colspan(3).__(th -> th
+                        .div__(contact)
                     )
+                )
             );
           }
           table.tbody__any(tbody -> {
@@ -129,10 +135,10 @@ public final class ContactImpl {
             for (Email email : emails) {
               String emailString = email.toString();
               tbody.tr__any(tr -> tr
-                      .th__("Email:")
-                      .td().colspan(2).__(td -> td
-                          .div().clazz("pragmatickm-contact-email").__(div -> div
-                              .a("mailto:" + emailString).__(emailString)
+                  .th__("Email:")
+                  .td().colspan(2).__(td -> td
+                      .div().clazz("pragmatickm-contact-email").__(div -> div
+                          .a("mailto:" + emailString).__(emailString)
                       )
                   )
               );
@@ -143,12 +149,13 @@ public final class ContactImpl {
               String comment = phoneNumber.getComment();
               tbody.tr__any(tr -> {
                 tr.th__any(th -> th
-                        .text(type.getLabel()).text(':')
-                ).td().colspan(comment == null ? 2 : 1).__(td -> td
+                    .text(type.getLabel()).text(':')
+                )
+                    .td().colspan(comment == null ? 2 : 1).__(td -> td
                         .div().clazz(type.getCssClass()).__(div -> div
                             .a("tel:" + number.replace(' ', '-')).__(number)
-                    )
-                );
+                        )
+                    );
                 if (comment != null) {
                   tr.td__(comment);
                 }
@@ -160,11 +167,11 @@ public final class ContactImpl {
               String comment = im.getComment();
               tbody.tr__any(tr -> {
                 tr.th__any(th -> th
-                        .text(type.getLabel()).text(':')
+                    .text(type.getLabel()).text(':')
                 )
                     .td().colspan(comment == null ? 2 : 1).__(td -> td
                         .div().clazz(type.getCssClass()).__(handle)
-                );
+                    );
                 if (comment != null) {
                   tr.td__(comment);
                 }
@@ -172,10 +179,10 @@ public final class ContactImpl {
             }
             for (String webPage : webPages) {
               tbody.tr__any(tr -> tr
-                      .th__("Web Page:")
-                      .td().colspan(2).__(td -> td
-                          .div().clazz("pragmatickm-contact-web-page").__(div -> div
-                              .a(webPage).__(webPage)
+                  .th__("Web Page:")
+                  .td().colspan(2).__(td -> td
+                      .div().clazz("pragmatickm-contact-web-page").__(div -> div
+                          .a(webPage).__(webPage)
                       )
                   )
               );
@@ -183,8 +190,8 @@ public final class ContactImpl {
             for (Address address : addresses) {
               AddressType type = address.getType();
               tbody.tr__any(tr -> tr
-                      .th().clazz(type.getCssClass()).colspan(3).__(th -> th
-                          .div__(type.getLabel())
+                  .th().clazz(type.getCssClass()).colspan(3).__(th -> th
+                      .div__(type.getLabel())
                   )
               );
               writeRow("Address 1:", address.getAddress1(), tbody);
@@ -198,7 +205,7 @@ public final class ContactImpl {
             BufferResult body = contact.getBody();
             if (body.getLength() > 0) {
               tbody.tr__any(tr -> tr
-                      .td().clazz("pragmatickm-contact-body").colspan(3).__(td -> {
+                  .td().clazz("pragmatickm-contact-body").colspan(3).__(td -> {
                     @SuppressWarnings("deprecation")
                     Writer unsafe = td.getRawUnsafe();
                     body.writeTo(new NodeBodyWriter(contact, unsafe, context));

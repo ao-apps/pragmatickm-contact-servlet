@@ -42,8 +42,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.jsp.SkipPageException;
 
+/**
+ * Creates a new contact.
+ */
 public class Contact extends Element<com.pragmatickm.contact.model.Contact> {
 
+  /**
+   * Creates a new contact.
+   */
   public Contact(
       ServletContext servletContext,
       HttpServletRequest request,
@@ -58,6 +64,9 @@ public class Contact extends Element<com.pragmatickm.contact.model.Contact> {
     );
   }
 
+  /**
+   * Creates a new contact.
+   */
   public Contact(
       ServletContext servletContext,
       HttpServletRequest request,
