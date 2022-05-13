@@ -37,4 +37,4 @@ module com.pragmatickm.contact.servlet {
   requires com.semanticcms.core.servlet; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-servlet</artifactId>
   // Java SE
   requires java.sql;
-} // TODO: Avoiding rewrite-maven-plugin-4.22.2 truncation
+}
