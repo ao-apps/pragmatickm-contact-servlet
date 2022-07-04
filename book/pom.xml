@@ -36,15 +36,15 @@ along with pragmatickm-contact-servlet.  If not, see <https://www.gnu.org/licens
     <module.name>com.pragmatickm.contact.servlet.book</module.name>
     <!-- These values are copied from the project being documented -->
     <documented.artifactId>pragmatickm-contact-servlet</documented.artifactId>
-    <documented.name>PragmaticKM Contact Servlet²</documented.name>
+    <documented.name>PragmaticKM Contact Servlet</documented.name>
     <documented.description>Contacts nested within SemanticCMS pages and elements in a Servlet environment.</documented.description>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
   </properties>
 
-  <name>PragmaticKM Contact Servlet² Book</name>
+  <name>PragmaticKM Contact Servlet Book</name>
   <url>https://pragmatickm.com/contact/servlet/</url>
-  <description>Documentation for PragmaticKM Contact Servlet² in SemanticCMS format.</description>
+  <description>Documentation for PragmaticKM Contact Servlet in SemanticCMS format.</description>
   <inceptionYear>2013</inceptionYear>
 
   <licenses>

@@ -46,7 +46,7 @@ along with pragmatickm-contact-servlet.  If not, see <https://www.gnu.org/licens
     <sonar.coverage.exclusions>**.*</sonar.coverage.exclusions>
   </properties>
 
-  <name>PragmaticKM Contact Servlet²</name>
+  <name>PragmaticKM Contact Servlet</name>
   <url>https://pragmatickm.com/contact/servlet/</url>
   <description>Contacts nested within SemanticCMS pages and elements in a Servlet environment.</description>
   <inceptionYear>2013</inceptionYear>
