@@ -28,6 +28,7 @@ def upstreamProjects = [
   '../parent', // <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-parent</artifactId>
 
   // Direct
+  '../../oss/fluent-html-any', // <groupId>com.aoapps</groupId><artifactId>ao-fluent-html-any</artifactId>
   '../../oss/fluent-html-servlet', // <groupId>com.aoapps</groupId><artifactId>ao-fluent-html-servlet</artifactId>
   '../../oss/net-types', // <groupId>com.aoapps</groupId><artifactId>ao-net-types</artifactId>
   // No Jenkins: <groupId>javax.servlet</groupId><artifactId>javax.servlet-api</artifactId>
