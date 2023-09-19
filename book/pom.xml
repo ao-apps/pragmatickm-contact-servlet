@@ -41,6 +41,9 @@ along with pragmatickm-contact-servlet.  If not, see <https://www.gnu.org/licens
     <documented.artifactId>pragmatickm-contact-servlet</documented.artifactId>
     <documented.name>PragmaticKM Contact Servlet</documented.name>
     <documented.description>Contacts nested within SemanticCMS pages and elements in a Servlet environment.</documented.description>
+    <javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://pragmatickm.com/">PragmaticKM</a>
+/ <a target="${javadoc.target}" href="https://pragmatickm.com/contact/">Contact</a>
+/ <a target="${javadoc.target}" href="${project.url}">Servlet</a>]]></javadoc.breadcrumbs>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
   </properties>
