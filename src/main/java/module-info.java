@@ -35,6 +35,7 @@ module com.pragmatickm.contact.servlet {
   requires com.pragmatickm.contact.model; // <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-model</artifactId>
   requires com.semanticcms.core.model; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-model</artifactId>
   requires com.semanticcms.core.servlet; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-servlet</artifactId>
+  requires static com.github.spotbugs.annotations; // <groupId>com.github.spotbugs</groupId><artifactId>spotbugs-annotations</artifactId>
   // Java SE
   requires java.sql;
 }
