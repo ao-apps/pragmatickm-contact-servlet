@@ -1,6 +1,6 @@
 /*
  * pragmatickm-contact-servlet - Contacts nested within SemanticCMS pages and elements in a Servlet environment.
- * Copyright (C) 2013, 2014, 2015, 2016, 2017, 2020, 2021, 2022  AO Industries, Inc.
+ * Copyright (C) 2013, 2014, 2015, 2016, 2017, 2020, 2021, 2022, 2023  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -34,6 +34,7 @@ import com.semanticcms.core.pages.CaptureLevel;
 import com.semanticcms.core.pages.local.PageContext;
 import com.semanticcms.core.renderer.html.PageIndex;
 import com.semanticcms.core.servlet.Element;
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
 import java.io.IOException;
 import java.io.Writer;
 import javax.servlet.ServletContext;
@@ -85,6 +86,7 @@ public class Contact extends Element<com.pragmatickm.contact.model.Contact> {
    *
    * @see  PageContext
    */
+  @SuppressFBWarnings("CT_CONSTRUCTOR_THROW")
   public Contact(com.pragmatickm.contact.model.Contact element) {
     this(
         PageContext.getServletContext(),
@@ -99,6 +101,7 @@ public class Contact extends Element<com.pragmatickm.contact.model.Contact> {
    *
    * @see  PageContext
    */
+  @SuppressFBWarnings("CT_CONSTRUCTOR_THROW")
   public Contact() {
     this(
         PageContext.getServletContext(),
