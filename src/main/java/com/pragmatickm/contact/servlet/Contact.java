@@ -1,6 +1,6 @@
 /*
  * pragmatickm-contact-servlet - Contacts nested within SemanticCMS pages and elements in a Servlet environment.
- * Copyright (C) 2013, 2014, 2015, 2016, 2017, 2020, 2021, 2022, 2023  AO Industries, Inc.
+ * Copyright (C) 2013, 2014, 2015, 2016, 2017, 2020, 2021, 2022, 2023, 2024  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -118,81 +118,161 @@ public class Contact extends Element<com.pragmatickm.contact.model.Contact> {
 
   private Object style;
 
+  /**
+   * Sets the CSS style.
+   *
+   * @return {@code this}
+   */
   public Contact style(Object style) {
     this.style = style;
     return this;
   }
 
+  /**
+   * See {@link com.pragmatickm.contact.model.Contact#setTitle(java.lang.String)}.
+   *
+   * @return {@code this}
+   */
   public Contact title(String title) {
     element.setTitle(title);
     return this;
   }
 
+  /**
+   * See {@link com.pragmatickm.contact.model.Contact#setFirst(java.lang.String)}.
+   *
+   * @return {@code this}
+   */
   public Contact first(String first) {
     element.setFirst(first);
     return this;
   }
 
+  /**
+   * See {@link com.pragmatickm.contact.model.Contact#setMiddle(java.lang.String)}.
+   *
+   * @return {@code this}
+   */
   public Contact middle(String middle) {
     element.setMiddle(middle);
     return this;
   }
 
+  /**
+   * See {@link com.pragmatickm.contact.model.Contact#setNick(java.lang.String)}.
+   *
+   * @return {@code this}
+   */
   public Contact nick(String nick) {
     element.setNick(nick);
     return this;
   }
 
+  /**
+   * See {@link com.pragmatickm.contact.model.Contact#setLast(java.lang.String)}.
+   *
+   * @return {@code this}
+   */
   public Contact last(String last) {
     element.setLast(last);
     return this;
   }
 
+  /**
+   * See {@link com.pragmatickm.contact.model.Contact#setMaiden(java.lang.String)}.
+   *
+   * @return {@code this}
+   */
   public Contact maiden(String maiden) {
     element.setMaiden(maiden);
     return this;
   }
 
+  /**
+   * See {@link com.pragmatickm.contact.model.Contact#setSuffix(java.lang.String)}.
+   *
+   * @return {@code this}
+   */
   public Contact suffix(String suffix) {
     element.setSuffix(suffix);
     return this;
   }
 
+  /**
+   * See {@link com.pragmatickm.contact.model.Contact#setCompany(java.lang.String)}.
+   *
+   * @return {@code this}
+   */
   public Contact company(String company) {
     element.setCompany(company);
     return this;
   }
 
+  /**
+   * See {@link com.pragmatickm.contact.model.Contact#setDepartment(java.lang.String)}.
+   *
+   * @return {@code this}
+   */
   public Contact department(String department) {
     element.setDepartment(department);
     return this;
   }
 
+  /**
+   * See {@link com.pragmatickm.contact.model.Contact#setJobTitle(java.lang.String)}.
+   *
+   * @return {@code this}
+   */
   public Contact jobTitle(String jobTitle) {
     element.setJobTitle(jobTitle);
     return this;
   }
 
+  /**
+   * See {@link com.pragmatickm.contact.model.Contact#addEmail(com.aoapps.net.Email)}.
+   *
+   * @return {@code this}
+   */
   public Contact email(Email email) {
     element.addEmail(email);
     return this;
   }
 
+  /**
+   * See {@link com.pragmatickm.contact.model.Contact#addPhoneNumber(com.pragmatickm.contact.model.PhoneNumber)}.
+   *
+   * @return {@code this}
+   */
   public Contact phoneNumber(PhoneNumber phoneNumber) {
     element.addPhoneNumber(phoneNumber);
     return this;
   }
 
+  /**
+   * See {@link com.pragmatickm.contact.model.Contact#addIm(com.pragmatickm.contact.model.Im)}.
+   *
+   * @return {@code this}
+   */
   public Contact im(Im im) {
     element.addIm(im);
     return this;
   }
 
+  /**
+   * See {@link com.pragmatickm.contact.model.Contact#addWebPage(java.lang.String)}.
+   *
+   * @return {@code this}
+   */
   public Contact webPage(String webPage) {
     element.addWebPage(webPage);
     return this;
   }
 
+  /**
+   * See {@link com.pragmatickm.contact.model.Contact#addAddress(com.pragmatickm.contact.model.Address)}.
+   *
+   * @return {@code this}
+   */
   public Contact address(Address address) {
     element.addAddress(address);
     return this;
