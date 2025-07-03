@@ -23,7 +23,7 @@ Contacts nested within [SemanticCMS](https://github.com/ao-apps/semanticcms) pag
 * [Project Home](https://pragmatickm.com/contact/servlet/)
 * [Changelog](https://pragmatickm.com/contact/servlet/changelog)
 * [API Docs](https://pragmatickm.com/contact/servlet/apidocs/)
-* [Maven Central Repository](https://central.sonatype.com/artifact/com.pragmatickm/pragmatickm-contact-servlet)
+* [Central Repository](https://central.sonatype.com/artifact/com.pragmatickm/pragmatickm-contact-servlet)
 * [GitHub](https://github.com/ao-apps/pragmatickm-contact-servlet)
 
 ## Contact Us
