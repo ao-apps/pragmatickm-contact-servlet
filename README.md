@@ -8,14 +8,14 @@
 [![semantic versioning: 2.0.0](https://pragmatickm.com/ao-badges/semver-2.0.0.svg)](https://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://pragmatickm.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-[![Build](https://github.com/ao-apps/pragmatickm-contact-servlet/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/ao-apps/pragmatickm-contact-servlet/actions?query=workflow%3ABuild)
+[![Build](https://github.com/ao-apps/pragmatickm-contact-servlet/actions/workflows/build.yml/badge.svg?branch=alpha)](https://github.com/ao-apps/pragmatickm-contact-servlet/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.pragmatickm/pragmatickm-contact-servlet/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.pragmatickm/pragmatickm-contact-servlet)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.pragmatickm%3Apragmatickm-contact-servlet&metric=alert_status)](https://sonarcloud.io/dashboard?branch=master&id=com.pragmatickm%3Apragmatickm-contact-servlet)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.pragmatickm%3Apragmatickm-contact-servlet&metric=ncloc)](https://sonarcloud.io/component_measures?branch=master&id=com.pragmatickm%3Apragmatickm-contact-servlet&metric=ncloc)  
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.pragmatickm%3Apragmatickm-contact-servlet&metric=reliability_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.pragmatickm%3Apragmatickm-contact-servlet&metric=Reliability)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.pragmatickm%3Apragmatickm-contact-servlet&metric=security_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.pragmatickm%3Apragmatickm-contact-servlet&metric=Security)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.pragmatickm%3Apragmatickm-contact-servlet&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.pragmatickm%3Apragmatickm-contact-servlet&metric=Maintainability)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.pragmatickm%3Apragmatickm-contact-servlet&metric=coverage)](https://sonarcloud.io/component_measures?branch=master&id=com.pragmatickm%3Apragmatickm-contact-servlet&metric=Coverage)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=alpha&project=com.pragmatickm%3Apragmatickm-contact-servlet&metric=alert_status)](https://sonarcloud.io/dashboard?branch=alpha&id=com.pragmatickm%3Apragmatickm-contact-servlet)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=alpha&project=com.pragmatickm%3Apragmatickm-contact-servlet&metric=ncloc)](https://sonarcloud.io/component_measures?branch=alpha&id=com.pragmatickm%3Apragmatickm-contact-servlet&metric=ncloc)  
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?branch=alpha&project=com.pragmatickm%3Apragmatickm-contact-servlet&metric=reliability_rating)](https://sonarcloud.io/component_measures?branch=alpha&id=com.pragmatickm%3Apragmatickm-contact-servlet&metric=Reliability)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=alpha&project=com.pragmatickm%3Apragmatickm-contact-servlet&metric=security_rating)](https://sonarcloud.io/component_measures?branch=alpha&id=com.pragmatickm%3Apragmatickm-contact-servlet&metric=Security)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=alpha&project=com.pragmatickm%3Apragmatickm-contact-servlet&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=alpha&id=com.pragmatickm%3Apragmatickm-contact-servlet&metric=Maintainability)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?branch=alpha&project=com.pragmatickm%3Apragmatickm-contact-servlet&metric=coverage)](https://sonarcloud.io/component_measures?branch=alpha&id=com.pragmatickm%3Apragmatickm-contact-servlet&metric=Coverage)
 
 Contacts nested within [SemanticCMS](https://github.com/ao-apps/semanticcms) pages and elements in a Servlet environment.
 
