@@ -21,8 +21,6 @@
  * along with pragmatickm-contact-servlet.  If not, see <https://www.gnu.org/licenses/>.
  */
 module com.pragmatickm.contact.servlet {
-  exports com.pragmatickm.contact.servlet;
-  exports com.pragmatickm.contact.servlet.impl;
   // Direct
   requires com.aoapps.encoding; // <groupId>com.aoapps</groupId><artifactId>ao-encoding</artifactId>
   requires com.aoapps.html.any; // <groupId>com.aoapps</groupId><artifactId>ao-fluent-html-any</artifactId>
@@ -37,4 +35,7 @@ module com.pragmatickm.contact.servlet {
   requires com.semanticcms.core.servlet; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-servlet</artifactId>
   // Java SE
   requires java.sql;
+
+  exports com.pragmatickm.contact.servlet;
+  exports com.pragmatickm.contact.servlet.impl;
 }
